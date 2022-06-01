@@ -1,0 +1,105 @@
+html{
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--cor-principal) url('../images/bg-desktop.svg') center bottom no-repeat;
+    background-size: cover;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.header {
+    
+}
+
+.logo {
+    padding: 69px;
+    max-width: 350px;
+    padding-top: 57px;
+  }
+  
+  .logo img{
+    width: 100%;
+  }
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 69px;
+    padding-top: 8px;
+}
+
+.container .esquerda img {
+    width: 90%;
+}
+
+.container .direita {
+    margin-left: 17px;
+    max-width: 550px;
+}
+
+.container .direita h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.container .direita p {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    max-width: 520px;
+}
+
+.container .direita .botao {
+    background-color: #fff;
+    padding: 15px 68px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: 0.3s ease-in-out;
+    color: hsl(257, 40%, 49%) 
+}
+
+.container .direita .botao:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #ffff;
+  }
+
+
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 180px;
+}
+
+.footer .social i {
+    display: flex;
+    font-size: 20px;
+    margin: 7px;
+    border-radius: 100%;
+    width: 40%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+footer .social i:hover{
+    color: hsl(300, 69%, 71%);
+    border: hsl(300, 69%, 71%) solid 1px;
+}
+
+.footer .social a {
+    margin: 20px;
+}
+
+.footer .social a:hover {
+    color: #fff;
+}
